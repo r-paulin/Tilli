@@ -21,13 +21,41 @@ button {
     min-width: 160px;
     border-radius: 8px;
     padding: 1em 2em;
+}
+
+.primary {
     background-color: var(--purple);
     border: none;
     color: var(--white);
+    font-weight: bold;
+}
+
+.secondary {
+    background-color: var(--lpurple);
+    border: none;
+    color: var(--purple);
+    font-weight: bold;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: calc(var(--space) * 2);
+    margin: var(--space) 0;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+a,
+a:hover {
+    color: var(--purple);
 }
 
 .logo {
     padding-bottom: calc(var(--space) * 5);
+}
+
+.right {
+    justify-content: end;
 }
 
 .top p,
@@ -36,13 +64,22 @@ button {
     line-height: 140%;
 }
 
+.top-img {
+    border-radius: 8px;
+    width: auto;
+}
+
+.what {
+    align-items: center;
+}
+
 .how {
     padding-top: calc(var(--space) * 10);
     padding-bottom: calc(var(--space) * 10);
 }
 
 hr {
-    background-color: var(--grey);
+    background-color: var(--lpurple);
     height: calc(var(--space) / 4);
 }
 
