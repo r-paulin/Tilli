@@ -45,6 +45,11 @@ input[type=email] {
     box-shadow: none;
 }
 
+a button {
+    color: var(--white);
+    cursor: pointer;
+}
+
 a,
 a:hover {
     color: var(--purple);
